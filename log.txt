@@ -1,1 +1,2 @@
 07/02/2022 15:55:43 |  abc@xxx.com | ERROR: (530, b'5.7.0 Authentication Required. Learn more at\n5.7.0  https://support.google.com/mail/?p=WantAuthError k19sm4198401oot.41 - gsmtp', 'xxx@xxxxx.com')
+07/02/2022 20:40:18 |  abc@xxx.com | ERROR: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials f40sm441365oaq.34 - gsmtp')

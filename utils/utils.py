@@ -7,8 +7,6 @@ import codecs
 from random import randint
 from datetime import datetime
 
-port = 465
-
 def add_log_error(error, mail):
     now = datetime.now()
     with open('log.txt', 'a') as file:
@@ -19,7 +17,7 @@ def random_code():
     code = randint(000000, 999999)
     return code
 
-def send_email(sender_name, sender_email, receiver_name, receiver_email, password, server):
+def send_email(sender_name, sender_email, receiver_name, receiver_email, password, server, port):
     message = MIMEMultipart("alternative")
     message["Subject"] = "Account Activation"
 
