@@ -1,6 +1,8 @@
 # email_sending
 An email sending system with random confirmation code.
 
+<img src="example.png" width="700" height= "350" title="Example">
+
 ## Description
 Confirmation emails are sent based on the list of email addresses. Each email's content has a greeting with the receiver's name and a six digit random confirmation code. In case of error, the description along with date and time will be saved on the log file.
 
